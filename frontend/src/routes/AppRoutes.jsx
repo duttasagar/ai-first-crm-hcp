@@ -8,8 +8,8 @@ export default function AppRoutes() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/interaction" element={<LogInteraction />} />
+        <Route path="/interaction" element={<Dashboard />} />
+        <Route path="/" element={<LogInteraction />} />
       </Routes>
     </Layout>
   );
